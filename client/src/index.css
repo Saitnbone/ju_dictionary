@@ -1,13 +1,38 @@
+/* 
+____________________________________________________________________________________________________________________________
+
+                                  Общие настройки стилей для всего веб-приложения
+____________________________________________________________________________________________________________________________
+
+*/
 body {
+  background-color: rgb(61, 115, 221);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'DM Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* 
+____________________________________________________________________________________________________________________________
+
+                                    Настройки стилей для компонента MainHeader.js
+____________________________________________________________________________________________________________________________
+
+*/
+header{
+  background-color: rgb(61, 115, 221);
+}
+.header_block{
+  margin-top: 0.5em;
+  margin-left: 0,5em;
+  margin-bottom: 1em;
+}
+.span_burger_icon{
+  margin-top: 0.25em;
+  margin-left: 0,25em;
+}
+.icon{
+  color: white;
+  font-size: 45px;
+  cursor: pointer;
 }
