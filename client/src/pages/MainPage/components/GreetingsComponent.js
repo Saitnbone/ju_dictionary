@@ -4,12 +4,12 @@ export const GreetingsComponent = () => {
   return (
     <div className='greetings'>
           <div>
-          <p>
+          <h2>
             Привет, посетитель!
-          </p>
-          <p>
+          </h2>
+          <h2>
             Интерактивный словарик поможет тебе выучить новые английские слова
-          </p>
+          </h2>
           </div>
     </div>
   )

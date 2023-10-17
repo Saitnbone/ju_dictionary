@@ -1,3 +1,17 @@
+/*
+___________________________________________________________________________________________________________________
+
+Данный компонент используется для объединения других компонентов, которые входят в тег <main>. Компоненты, которые 
+используются в данном файле находят в папке components (src/pages/MainPage/components).
+
+___________________________________________________________________________________________________________________
+
+This component is used to combine other components that are included in the <main> tag. Components that
+used in this file are found in the components folder (src/pages/MainPage/components).
+___________________________________________________________________________________________________________________
+
+*/ 
+
 import React from 'react'
 import './mainPage.css'
 import GreetingsComponent from './components/GreetingsComponent';

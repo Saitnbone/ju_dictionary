@@ -31,9 +31,42 @@ ________________________________________________________________________________
     padding-bottom: 3em;
     width: 40%;
     border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .information div {
     margin: 1em;
     padding: 0.25em;
+}
+/* 
+____________________________________________________________________________________________________________________________
+
+                                        Настройка формы для добавления новых слов на MainPage
+____________________________________________________________________________________________________________________________
+
+*/
+.form_block{
+    margin-top: 4em;
+    margin-left: 4em;
+    padding-bottom: 6em;
+}
+.form_block form{
+    text-align: center;
+}
+.button_form{
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.input_english_word{
+    width: 15%;
+    height: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.input_dictionary{
+    width: 15%;
+    height: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
